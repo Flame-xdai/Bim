@@ -1,17 +1,11 @@
 'use client'
 
 import { useState } from 'react'
-import Link from 'next/link'
-import { Menu, Search, ShoppingBag, User } from 'lucide-react'
+import { Menu, Search, ShoppingBag } from 'lucide-react'
 import LeftDrawer from './LeftDrawer'
-import { useCart } from './CartContext'
 
 export default function Header() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false)
-  const [searchQuery, setSearchQuery] = useState('')
-  const { cart } = useCart()
-
-  const cartItemsCount = cart.reduce((sum, item) => sum + item.quantity, 0)
 
   return (
     <>
@@ -22,15 +16,17 @@ export default function Header() {
             <div className="flex items-center space-x-4">
               <button
                 onClick={() => setIsDrawerOpen(true)}
-                className="p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100"
+                className="p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100 transition-colors"
                 aria-label="Open menu"
               >
                 <Menu className="h-6 w-6" />
               </button>
               
-              <Link href="/" className="flex-shrink-0">
-                <h1 className="text-2xl font-bold text-blue-600">JerseyStore</h1>
-              </Link>
+              <div className="flex-shrink-0">
+                <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                  JerseyStore
+                </h1>
+              </div>
             </div>
 
             {/* Center - Search (hidden on mobile) */}
@@ -41,35 +37,16 @@ export default function Header() {
                 </div>
                 <input
                   type="text"
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
                   placeholder="Search jerseys..."
-                  className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
                 />
               </div>
             </div>
 
-            {/* Right side - Cart and User */}
+            {/* Right side - WhatsApp Contact */}
             <div className="flex items-center space-x-4">
-              <Link
-                href="/cart"
-                className="relative p-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-md"
-              >
-                <ShoppingBag className="h-6 w-6" />
-                {cartItemsCount > 0 && (
-                  <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
-                    {cartItemsCount}
-                  </span>
-                )}
-              </Link>
-              
-              <button className="p-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-md">
-                <User className="h-6 w-6" />
-              </button>
-
-              {/* WhatsApp Contact */}
               <a
-                href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER}?text=Hi%2C%20I%20need%20help%20with%20an%20order`}
+                href="https://wa.me/8801952081184?text=Hi%2C%20I%20need%20help%20with%20jerseys"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hidden md:inline-flex items-center px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors text-sm font-medium"
@@ -87,8 +64,6 @@ export default function Header() {
               </div>
               <input
                 type="text"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="Search jerseys..."
                 className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               />
