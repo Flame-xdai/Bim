@@ -1,184 +1,110 @@
 [
   {
     "id": "1",
-    "title_en": "Barcelona Home Jersey 2024/25",
-    "title_bn": "বার্সেলোনা হোম জার্সি ২০২৪/২৫",
-    "slug": "barcelona-home-jersey-2024-25",
-    "price_bdt": 750,
-    "images": [
-      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=500&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=500&h=600&fit=crop"
-    ],
-    "sizes": ["S", "M", "L", "XL"],
-    "description_en": "Official Barcelona home jersey for the 2024/25 season. Premium quality fabric with moisture-wicking technology.",
-    "description_bn": "২০২৪/২৫ সিজনের জন্য অফিসিয়াল বার্সেলোনা হোম জার্সি। প্রিমিয়াম কোয়ালিটি ফ্যাব্রিক।",
-    "tags": ["Barcelona", "25/26 Season", "Club Jersey 24/25 kit"],
-    "available": true
+    "name": "Barcelona Home Jersey 2024/25",
+    "price": 750,
+    "category": "Barcelona",
+    "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=500&h=600&fit=crop&crop=center",
+    "description": "Official Barcelona home jersey for the 2024/25 season. Premium quality fabric with moisture-wicking technology.",
+    "featured": true
   },
   {
     "id": "2",
-    "title_en": "Real Madrid Away Jersey",
-    "title_bn": "রিয়াল মাদ্রিদ অ্যাওয়ে জার্সি",
-    "slug": "real-madrid-away-jersey",
-    "price_bdt": 850,
-    "images": [
-      "https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?w=500&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&h=600&fit=crop"
-    ],
-    "sizes": ["S", "M", "L", "XL"],
-    "description_en": "Premium Real Madrid away jersey with latest design and comfortable fit.",
-    "description_bn": "লেটেস্ট ডিজাইন এবং আরামদায়ক ফিট সহ প্রিমিয়াম রিয়াল মাদ্রিদ অ্যাওয়ে জার্সি।",
-    "tags": ["Real Madrid", "25/26 Season", "Club Jersey 24/25 kit"],
-    "available": true
+    "name": "Real Madrid Away Jersey 2024/25",
+    "price": 850,
+    "category": "Real Madrid",
+    "image": "https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?w=500&h=600&fit=crop&crop=center",
+    "description": "Premium Real Madrid away jersey with latest design and comfortable fit.",
+    "featured": true
   },
   {
     "id": "3",
-    "title_en": "Manchester United Retro Jersey",
-    "title_bn": "ম্যানচেস্টার ইউনাইটেড রেট্রো জার্সি",
-    "slug": "manchester-united-retro-jersey",
-    "price_bdt": 650,
-    "images": [
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=600&fit=crop"
-    ],
-    "sizes": ["S", "M", "L", "XL"],
-    "description_en": "Classic Manchester United retro jersey with traditional red color.",
-    "description_bn": "ঐতিহ্যবাহী লাল রঙের ক্লাসিক ম্যানচেস্টার ইউনাইটেড রেট্রো জার্সি।",
-    "tags": ["Retro", "Retro Jersey Collection", "Full Seleve Jersey"],
-    "available": true
+    "name": "Manchester United Retro Jersey",
+    "price": 650,
+    "category": "Retro Jersey Collection",
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=600&fit=crop&crop=center",
+    "description": "Classic Manchester United retro jersey with traditional red color.",
+    "featured": true
   },
   {
     "id": "4",
-    "title_en": "Liverpool Travel Shirt",
-    "title_bn": "লিভারপুল ট্রাভেল শার্ট",
-    "slug": "liverpool-travel-shirt",
-    "price_bdt": 550,
-    "images": [
-      "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=500&h=600&fit=crop"
-    ],
-    "sizes": ["S", "M", "L", "XL"],
-    "description_en": "Liverpool travel shirt with unique design and comfortable material.",
-    "description_bn": "অনন্য ডিজাইন এবং আরামদায়ক উপাদান সহ লিভারপুল ট্রাভেল শার্ট।",
-    "tags": ["Travel Shirt", "Half seleve Jersey"],
-    "available": true
+    "name": "Liverpool Travel Shirt",
+    "price": 550,
+    "category": "Travel Shirt",
+    "image": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=500&h=600&fit=crop&crop=center",
+    "description": "Liverpool travel shirt with unique design and comfortable material.",
+    "featured": false
   },
   {
     "id": "5",
-    "title_en": "Chelsea Third Kit 2024",
-    "title_bn": "চেলসি থার্ড কিট ২০২৪",
-    "slug": "chelsea-third-kit-2024",
-    "price_bdt": 780,
-    "images": [
-      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=500&h=600&fit=crop"
-    ],
-    "sizes": ["S", "M", "L", "XL"],
-    "description_en": "Modern Chelsea third kit with excellent quality and fit.",
-    "description_bn": "চমৎকার গুণমান এবং ফিট সহ আধুনিক চেলসি থার্ড কিট।",
-    "tags": ["25/26 Season", "Club Jersey 24/25 kit", "Full Seleve Jersey"],
-    "available": true
+    "name": "Chelsea Third Kit 2024",
+    "price": 780,
+    "category": "Club Jersey 24/25 Kit",
+    "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&h=600&fit=crop&crop=center",
+    "description": "Modern Chelsea third kit with excellent quality and fit.",
+    "featured": true
   },
   {
     "id": "6",
-    "title_en": "Arsenal Home Kit Classic",
-    "title_bn": "আর্সেনাল হোম কিট ক্লাসিক",
-    "slug": "arsenal-home-kit-classic",
-    "price_bdt": 720,
-    "images": [
-      "https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?w=500&h=600&fit=crop"
-    ],
-    "sizes": ["S", "M", "L", "XL"],
-    "description_en": "Classic Arsenal home kit with traditional red and white colors.",
-    "description_bn": "ঐতিহ্যবাহী লাল এবং সাদা রঙের ক্লাসিক আর্সেনাল হোম কিট।",
-    "tags": ["Retro Jersey Collection", "Full Seleve Jersey"],
-    "available": true
+    "name": "Arsenal Home Kit Classic",
+    "price": 720,
+    "category": "Retro Jersey Collection",
+    "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=500&h=600&fit=crop&crop=center",
+    "description": "Classic Arsenal home kit with traditional red and white colors.",
+    "featured": false
   },
   {
     "id": "7",
-    "title_en": "PSG Away Jersey 2024",
-    "title_bn": "পিএসজি অ্যাওয়ে জার্সি ২০২৪",
-    "slug": "psg-away-jersey-2024",
-    "price_bdt": 800,
-    "images": [
-      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&h=600&fit=crop"
-    ],
-    "sizes": ["S", "M", "L", "XL"],
-    "description_en": "PSG away jersey with premium fabric and modern design.",
-    "description_bn": "প্রিমিয়াম ফ্যাব্রিক এবং আধুনিক ডিজাইন সহ পিএসজি অ্যাওয়ে জার্সি।",
-    "tags": ["25/26 Season", "Club Jersey 24/25 kit"],
-    "available": true
+    "name": "PSG Away Jersey 2024",
+    "price": 800,
+    "category": "25/26 Season",
+    "image": "https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?w=500&h=600&fit=crop&crop=center",
+    "description": "PSG away jersey with premium fabric and modern design.",
+    "featured": true
   },
   {
     "id": "8",
-    "title_en": "Bayern Munich Training Shirt",
-    "title_bn": "বায়ার্ন মিউনিখ ট্রেনিং শার্ট",
-    "slug": "bayern-munich-training-shirt",
-    "price_bdt": 600,
-    "images": [
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=600&fit=crop"
-    ],
-    "sizes": ["S", "M", "L", "XL"],
-    "description_en": "Bayern Munich training shirt for practice and casual wear.",
-    "description_bn": "অনুশীলন এবং নৈমিত্তিক পরিধানের জন্য বায়ার্ন মিউনিখ ট্রেনিং শার্ট।",
-    "tags": ["Travel Shirt", "Half seleve Jersey"],
-    "available": true
+    "name": "Bayern Munich Training Shirt",
+    "price": 600,
+    "category": "Half Sleeve Jersey",
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=600&fit=crop&crop=center",
+    "description": "Bayern Munich training shirt for practice and casual wear.",
+    "featured": false
   },
   {
     "id": "9",
-    "title_en": "Juventus Retro Collection",
-    "title_bn": "জুভেন্টাস রেট্রো কালেকশন",
-    "slug": "juventus-retro-collection",
-    "price_bdt": 690,
-    "images": [
-      "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=500&h=600&fit=crop"
-    ],
-    "sizes": ["S", "M", "L", "XL"],
-    "description_en": "Vintage Juventus jersey from the retro collection.",
-    "description_bn": "রেট্রো কালেকশন থেকে ভিনটেজ জুভেন্টাস জার্সি।",
-    "tags": ["Retro", "Retro Jersey Collection", "Full Seleve Jersey"],
-    "available": true
+    "name": "Juventus Retro Collection",
+    "price": 690,
+    "category": "Retro Jersey Collection",
+    "image": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=500&h=600&fit=crop&crop=center",
+    "description": "Vintage Juventus jersey from the retro collection.",
+    "featured": false
   },
   {
     "id": "10",
-    "title_en": "AC Milan Home Jersey",
-    "title_bn": "এসি মিলান হোম জার্সি",
-    "slug": "ac-milan-home-jersey",
-    "price_bdt": 750,
-    "images": [
-      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=500&h=600&fit=crop"
-    ],
-    "sizes": ["S", "M", "L", "XL"],
-    "description_en": "AC Milan home jersey with iconic red and black stripes.",
-    "description_bn": "আইকনিক লাল এবং কালো ডোরা সহ এসি মিলান হোম জার্সি।",
-    "tags": ["25/26 Season", "Club Jersey 24/25 kit"],
-    "available": true
+    "name": "AC Milan Home Jersey",
+    "price": 750,
+    "category": "Full Sleeve Jersey",
+    "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&h=600&fit=crop&crop=center",
+    "description": "AC Milan home jersey with iconic red and black stripes.",
+    "featured": true
   },
   {
     "id": "11",
-    "title_en": "Inter Milan Away Kit",
-    "title_bn": "ইন্টার মিলান অ্যাওয়ে কিট",
-    "slug": "inter-milan-away-kit",
-    "price_bdt": 770,
-    "images": [
-      "https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?w=500&h=600&fit=crop"
-    ],
-    "sizes": ["S", "M", "L", "XL"],
-    "description_en": "Inter Milan away kit with modern design and premium quality.",
-    "description_bn": "আধুনিক ডিজাইন এবং প্রিমিয়াম কোয়ালিটি সহ ইন্টার মিলান অ্যাওয়ে কিট।",
-    "tags": ["25/26 Season", "Club Jersey 24/25 kit"],
-    "available": false
+    "name": "Inter Milan Away Kit",
+    "price": 770,
+    "category": "25/26 Season",
+    "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=500&h=600&fit=crop&crop=center",
+    "description": "Inter Milan away kit with modern design and premium quality.",
+    "featured": false
   },
   {
     "id": "12",
-    "title_en": "Brazil National Team Jersey",
-    "title_bn": "ব্রাজিল জাতীয় দল জার্সি",
-    "slug": "brazil-national-team-jersey",
-    "price_bdt": 820,
-    "images": [
-      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&h=600&fit=crop"
-    ],
-    "sizes": ["S", "M", "L", "XL"],
-    "description_en": "Official Brazil national team jersey with iconic yellow color.",
-    "description_bn": "আইকনিক হলুদ রঙের অফিসিয়াল ব্রাজিল জাতীয় দল জার্সি।",
-    "tags": ["Coming Soon", "Full Seleve Jersey"],
-    "available": false
+    "name": "Brazil National Team Jersey",
+    "price": 820,
+    "category": "Coming Soon",
+    "image": "https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?w=500&h=600&fit=crop&crop=center",
+    "description": "Official Brazil national team jersey with iconic yellow color.",
+    "featured": false
   }
 ]
